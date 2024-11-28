@@ -34,15 +34,15 @@ esac
 
 case $MODE in
   rtsp)
-    neolink rtsp --config /config/addons/neolink.toml
+    neolink rtsp --config /mnt/data/supervisor/addon_configs/neolink.toml
     ;;
 
   mqtt)
-    neolink mqtt --config /config/addons/neolink.toml
+    neolink mqtt --config /mnt/data/supervisor/addon_configs/neolink.toml
     ;;
 
   dual)
-    neolink mqtt-rtsp --config /config/addons/neolink.toml
+    neolink mqtt-rtsp --config /mnt/data/supervisor/addon_configs/neolink.toml
     ;;
 
   *)
