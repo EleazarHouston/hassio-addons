@@ -15,3 +15,6 @@ This repository contains the following add-ons
 ### [Neolink-latest](./neolink-latest)
 
 ### [Resol-VBus](./resol-vbus)
+
+
+(Updated config)
